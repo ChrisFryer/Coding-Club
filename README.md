@@ -5,5 +5,5 @@
 #
 PROJECT INDEX:
 
-1. Exmaple Project | All files prefixed with 1_ related to this Project.
+1. Example Project | All files prefixed with 1_ related to this Project.
 2.
