@@ -107,6 +107,7 @@ No installation required. Simply download the script file for the version you wa
 - **Connection Failures**: Ensure PowerShell Remoting is enabled on target servers and network connectivity exists
 - **Access Denied**: Verify the account has appropriate permissions on the target servers
 - **No Updates Displayed**: Confirm target servers have Windows updates installed and are accessible
+- Note: Another common issue relates to environment proxy settings, for this reason all versions of the application have embedded proxy bypass options.
 
 ### Error Messages in Results
 
