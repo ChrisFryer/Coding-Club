@@ -50,7 +50,7 @@ The Windows Server Update Checker provides IT administrators with a simple inter
 No installation required. Simply download the script file for the version you want to use and run it with PowerShell:
 
 ```powershell
-.\WinUpdateAppv3.0.ps1
+.\3_WinUpdateAppv3.0.ps1
 ```
 
 ## Usage Instructions
