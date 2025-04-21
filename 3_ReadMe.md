@@ -2,7 +2,7 @@
 
 A PowerShell GUI application for checking and reporting on Windows updates across multiple servers in your environment.
 
-![Application Screenshot](screenshots/app_screenshot.png)
+![Application Screenshot](3_Screenshot.png)
 
 ## Overview
 
