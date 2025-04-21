@@ -7,3 +7,4 @@ PROJECT INDEX:
 
 1. Example Project | Members: Chris Fryer | All files prefixed with 1_ related to this Project.
 2. Accelerate MECM Updates | Members: Chris Fryer | All files prefixed with 2_ relate to this Project
+3. Windows Patching Application | Members: Chris Fryer | All files prefixed with 3_ relate to this Project
