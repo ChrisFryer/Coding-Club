@@ -1,0 +1,4 @@
+$cred = Get-Credential
+.\Monitor-VMUpgrade.ps1 -VCenter "vcenter.domain.com" -VMName "YourVM" -Credential $cred -WaitTimeMinutes 30 -MaxRetries 5 -EmailTo "admin@company.com"
+
+Start-Job -FilePath .\Monitor-VMUpgrade.ps1 -ArgumentList @{VCenter="vcenter.domain.com"; VMName="YourVM"; Credential=$cred}
