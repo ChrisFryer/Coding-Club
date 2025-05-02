@@ -61,7 +61,7 @@ function Test-VMConnection {
     }
     
     # Try to get VM's IP address
-    $ipAddress = $VM.Guest.IPAddress | Where-Object { $_ -match '^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3} } | Select-Object -First 1
+    $ipAddress = $VM.Guest.IPAddress | Where-Object { $_ -match '^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' } | Select-Object -First 1
     
     if (-not $ipAddress) {
         return $false
