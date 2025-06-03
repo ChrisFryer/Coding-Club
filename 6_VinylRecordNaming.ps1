@@ -1,7 +1,17 @@
 ﻿<#
-
-    name: Vinyl-2025.06.03.a0 . ps1
-    Created on tiffany , Tested on Rebecca
+    author:  Andre Mountford
+    code:    hand coded from a blank page
+    name:    Vinyl-2025.06.03.a0 . ps1
+    Created on tiffany , Tested on Rebecca, rebuilt elsewhere
+    Purpose: create a specifically formatted string and create a file name with
+    that string.  That allows Php to format and present those files as a catalogue
+    of my vinyl record system available on my web-site.
+    process: this gathers information from the end user before remote controlling notepad
+    to save thge formatted string as the file name.
+    got-ya: This heavily leverages an early Windows Automation Snapin for PowerShell (WASP) 
+    portable version about 1.2* to control notepad from Powershell
+    Note:   This file has comments and working's that may not advance the function of this script
+    but are retained within to show and explain what my intention was at that point in time.
 #>
 
     $bs = "W:\projects\vinyl records\new\" 
