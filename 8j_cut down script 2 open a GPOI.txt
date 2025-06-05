@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+#-- turns it ON
+#
+import RPi.GPIO as GPIO
+
+led = 18
+switch = 31
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(led, GPIO.OUT)
+GPIO.setup(switch, GPIO.IN)
+
+GPIO.output(led, GPIO.HIGH)
+GPIO.cleanup()
