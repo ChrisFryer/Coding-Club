@@ -10,7 +10,7 @@
     to save thge formatted string as the file name.
     got-ya: This heavily leverages an early Windows Automation Snapin for PowerShell (WASP) 
     portable version about 1.2* to control notepad from Powershell
-    Note:   This file has comments and working's that may not advance the function of this script
+    Note:   This file has comments and workings that may not advance the function of this script
     but are retained within to show and explain what my intention was at that point in time.
 #>
 
