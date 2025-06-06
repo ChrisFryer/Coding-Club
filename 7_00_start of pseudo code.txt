@@ -1,0 +1,44 @@
+#!/bin/python3
+#
+#-- fstab needs to have functional links to RW connect to networt repo's
+#
+import time, pytz #, math, os
+from datetime import datetime as dt
+#
+def t_now():
+  tz = pytz.timezone('Australia/Canberra')
+  DT = dt.now(tz)
+  dm = DT.strftime("%H%M%S")
+  ds=int(dm) #;  print("now =", ds )
+  return(ds)
+
+while True:
+  k=t_now() # ; print(k)
+  print(" input a temperature ")
+  u=int(input() )
+  time.sleep(1)
+  if u > 30:
+      print(' greater than 30')
+  elif u < 30.1 and u > 25:
+      print(' between 25 & 30 ')
+  elif u < 25.1 and u > 20:
+      print(' between 20 and 25')
+  elif u < 20.1 and u > 16:
+      print(' between 16 and 20')
+      print(' fan heater off')
+  elif u < 16.1 and u > 12:
+      print(' between 12 and 16')
+  elif u < 12.1 and u > 10:
+      print(' between 10 and 12')
+      print(' fan heater on ')
+      print(' oil heater off')
+  elif u < 10.1 and u > 8:
+      print(' between 8 and 10')
+      print(' oil heater on ')
+  else: print(' under 8')
+      print(' oil heater 2 : on ')
+
+  time.sleep(2)
+
+  
+#-- https://www.programiz.com/python-programming/online-compiler/?ref=69a49581
