@@ -13,4 +13,4 @@ PROJECT INDEX:
 6. Vinyl record collection naming script | Members: Andre Mountford | Working version with various included tips & tricks
 7. Raspberry Pi Temperature Python Script | Members: Andre Mountford | file for presentation of pseudo code on a holisitc temperature control of a mostly sealed environment 
 8. Raspberry Pi motor POC demo | Members: Andre Mountford | files for presentation of a POC pet feeder
-9. 
+9. Send Text to a VMware Console | Members: Chris Fryer | All files prefixed with 9_ related to this Project.
