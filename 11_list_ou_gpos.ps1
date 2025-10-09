@@ -7,7 +7,7 @@ Import-Module GroupPolicy
 
 # Specify your OU path - UPDATE THIS!
 # Example: "OU=TestOnly,OU=Users,OU=Department,DC=domain,DC=com"
-$OUPath = "OU=TestOnly,OU=Users,OU=Department,DC=med,DC=fusetech,DC=com,DC=au"
+$OUPath = "OU=Test,OU=UserOU,OU=DepartmentOU,DC=med,DC=domain,DC=com,DC=au"
 
 Write-Host "`n========================================" -ForegroundColor Cyan
 Write-Host "Group Policies Linked to OU" -ForegroundColor Cyan
