@@ -15,3 +15,4 @@ PROJECT INDEX:
 8. Raspberry Pi motor POC demo | Members: Andre Mountford | files for presentation of a POC pet feeder
 9. Send Text to a VMware Console | Members: Chris Fryer | All files prefixed with 9_ related to this Project.
 10. Python Timer with two triggers | Members: Andre Mountford | A simple timer that can both turn something on and later turn it off.
+11. List OU Policies details | Members: Desmond Coulton | Lists all policies in OU and output link status and other scopes the policy is in.
